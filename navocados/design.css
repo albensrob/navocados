@@ -1,0 +1,120 @@
+.bordericon{
+	height:50px;
+	width:50px;
+	background:#111;
+	border-radius:50%;
+}
+
+/*background-image:url("gambar/gamb2.png");
+	background-size:370px 250px;
+	background-repeat:no-repeat;
+	background-position:center;
+*/
+#home{
+	background-image:url("gambar/bg.png");
+	background-size:cover;
+	background-repeat:no-repeat;
+	color:white;
+}
+
+#gambar1{
+	background-image:url("gambar/gamb1.png");
+	background-size:470px 310px;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+
+#integrity{
+	background-image:url("gambar/hand.png");
+	background-size:100px 100px;
+	background-repeat:no-repeat;
+	background-position:center 0px;
+}
+
+#commitment{
+	background-image:url("gambar/cooperate.png");
+	background-size:100px 100px;
+	background-repeat:no-repeat;
+	background-position:center 0px;
+}
+
+#innovation{
+	background-image:url("gambar/idea.png");
+	background-size:100px 100px;
+	background-repeat:no-repeat;
+	background-position:center 0px;	
+}
+
+#quality{
+	background-image:url("gambar/premium-quality.png");
+	background-size:100px 100px;
+	background-repeat:no-repeat;
+	background-position:center 0px;	
+}
+
+#contact{
+	color:black;
+	padding-top:70px; 
+	padding-bottom:200px; 
+	background-color:#65735e
+}
+
+.dropdown-menu{
+	margin-top:-5px !important;
+	min-width:100% !important;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+*{
+	outline:none;
+}
+
+img{
+	pointer-events:none;
+}
+
+body {
+  position:relative;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+	position:absolute;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.carousel.carousel-fade .carousel-item {
+    display: block !important;
+    opacity: 0 !important;
+    transition: opacity ease-out .5s !important;
+}
+
+.carousel.carousel-fade .carousel-item.active {
+    opacity: 1 !important;
+}
+
+#loading {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(192, 192, 192, 0.5);
+  background-image: url("https://i.stack.imgur.com/MnyxU.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
